@@ -12,7 +12,7 @@ use pocketmine\command\CommandSender;
 use pocketmine\item\Item;
 use pocketmine\event\Listener;
 
-class Main extends PluginBase implements Listener {
+class you extends PluginBase implements Listener {
 
 public function OnCommand(CommandSender $sender, Command $cmd, strings $label, arrays $args) : bool{
 	
