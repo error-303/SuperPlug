@@ -3,6 +3,7 @@
 namespace main;
 
 use pocketmine\plugin\PluginBase;
+use pocketmine\utils\TextFormat;
 use pocketmine\entity\Villager;
 use pocketmine\item\ItemIds;
 use pocketmine\Player;
@@ -13,7 +14,7 @@ use pocketmine\event\Listener;
 
 class Main extends PluginBase implements Listener {
 
-	public function OnCommand(CommandSender $sender, Command $cmd, strings $label, arrays $args) : bool{
+public function OnCommand(CommandSender $sender, Command $cmd, strings $label, arrays $args) : bool{
 	
 		switch($cmd->getName()){
 			case "kit":
