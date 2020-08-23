@@ -1,6 +1,6 @@
 <?php 
 
-namespace Main;
+namespace main;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\entity\Villager;
