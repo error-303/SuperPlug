@@ -8,7 +8,7 @@ use pocketmine\item\ItemIds;
 use pocketmine\Player;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
-use pocketmine\Item\Item;
+use pocketmine\item\Item;
 use pocketmine\Player;
 
 class Main extends PluginBase {
