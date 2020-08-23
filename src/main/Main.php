@@ -24,8 +24,6 @@ class Main extends PluginBase {
 			break;
 				
 		}
-			
-			}
 	
 	}
 	public function openKitForm($player){
