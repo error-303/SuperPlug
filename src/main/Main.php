@@ -9,8 +9,9 @@ use pocketmine\Player;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\item\Item;
+use pocketmine\event\Listener
 
-class Main extends PluginBase {
+class Main extends PluginBase implements Listener {
 
 	public function OnCommand(CommandSender $sender, Command $cmd, strings $label, arrays $args) : bool {
 	
