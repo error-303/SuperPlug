@@ -19,7 +19,7 @@ class Main extends PluginBase {
 			case "kit":
 				if($sender instanceof Player){
 				
-					$this->openKitForm($sender)
+					$this->openKitForm($sender);
 				}
 			break;
 				
@@ -37,21 +37,21 @@ class Main extends PluginBase {
 						$item = Item::get(1, 0, 1);
 						$inv = $player->getInventory();
 						$inv->addItem($item);
-						$player->sendMessage("§7Tu as eu un bloc de pierre")
+						$player->sendMessage("§7Tu as eu un bloc de pierre");
 					break; 
 					
 					case 1:
 						$item = Item::get(2, 0, 1);
 						$inv = $player->getInventory();
 						$inv->addItem($item);
-						$player->sendMessage("§aTu as eu un bloc d'herbe")
+						$player->sendMessage("§aTu as eu un bloc d'herbe");
 					break;
 					
 					case 2:
 						$item = Item::get(5, 0, 1);
 						$inv = $player->getInventory();
 						$inv->addItem($item);
-						$player->sendMessage("§6Tu as eu une planche de bois")
+						$player->sendMessage("§6Tu as eu une planche de bois");
 			 		break;
 				}
 			});
