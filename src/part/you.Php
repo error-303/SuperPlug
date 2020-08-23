@@ -1,6 +1,6 @@
 <?php 
 
-namespace part;
+namespace you;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\TextFormat;
