@@ -15,13 +15,15 @@ class Main extends PluginBase {
 
 	public function OnCommand(CommandSender $sender, Command $cmd, strings $label, arrays $args) : bool {
 	
-		switch($cmd->getName())	
+		switch($cmd->getName()){
 			case "kit":
 				if($sender instanceof Player){
 				
 					$this->openKitForm($sender)
 				}
 			break;
+				
+		}
 			
 			}
 	
